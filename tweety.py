@@ -3,8 +3,6 @@ import torch
 from transformers import pipeline
 from flask_cors import CORS, cross_origin
 
-
-
 app = Flask("name")
 api_v1_cors_config = {
     "origins": ["*"], 
