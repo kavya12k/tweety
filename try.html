@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tweety</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+   <!-- Navigation bar -->
+     <nav>
+       <ul>
+         <li>
+          <a href="index.html">ABOUT</a> 
+         </li>
+         <li>
+          <a class = "active" href="try.html">TRY IT OUT!</a>   
+        </li>
+       </ul>
+     </nav>
+
+  <main>
+    
+<label id="enterPhrase"> Enter a short phrase & press submit: </label>
+    <p></p>
+<input id = "userInput" type="text" placeholder="Enter a short phrase...">
+
+<button onclick = "analyzeText()" id = "enterBtn">Submit</button>
+
+<h2 id = "result"> Result will appear here...</h2>
+
+
+
+  <h1 id = "header"> DID YOU KNOW? </h1>
+<div id = "wrapper">
+      
+  <div id = "pieChart"> </div>
+        
+  <div id = "pieKey"> 
+    <div class="entry">
+      <div id="color-lightBlue" class="entry-color">            </div>
+      <div class="entry-text">People aged 18-29 who have experienced severe online harassment.</div>
+    </div>
+    <div class="entry">
+      <div id="color-blue" class="entry-color">            </div>
+      <div class="entry-text">People aged 18-29 who have experienced milder online harassment.</div>
+    </div>
+        
+  </div>
+</div>
+
+
+    
+  </main>
+
+  
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+
+</body>
+
+</html>
